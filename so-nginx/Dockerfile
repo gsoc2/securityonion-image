@@ -31,7 +31,7 @@ RUN sed -i '/<base href="\/">/d' ./dist/index.html
 
 ###################################
 
-FROM nginx:1.24-alpine
+FROM nginx:1.25.4-alpine
 
 LABEL maintainer "Security Onion Solutions, LLC"
 LABEL description="Security Onion Core Functions Docker"
